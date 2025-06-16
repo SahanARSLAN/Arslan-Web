@@ -1,0 +1,71 @@
+<html>
+<head>
+   
+    <title>İletişim Formu</title>
+</head>
+<body>
+
+    <h1>Yöresel Yemekler</h1>
+Merhaba ben Eylül Tepe bu web sayfasının kurucusuyum bana ulaşmak ve bu lezzetli yemeklerimize ulaşmak istiyorsanız ilitişim formunu doldurunuz.
+    <h2>Profil fotoğrafım</h2>
+	    <img src="Web Fotoğraf.JPG" alt="Profil Fotoğrafı" width="200">
+    
+	<h2>Restorantımızın aldığı ödüller</h2>
+
+    <ol type="A">
+        <li>Yılın en iyi şehir restorantı</li>
+        <li>Ylın en hiyenik restorantı</li>
+        <li>Yılın en lezzetli mutfağı</li>
+    </ol>
+
+    <table border="1">
+        <caption>Eğitim Bilgilerim</caption>
+        <thead>
+            <tr>
+                <th>Eğitim aldığım okul</th>
+                <th colspan="2">Yıllar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">ferrandi paris</td>
+                <td>2010</td>
+                <td>2015</td>
+            </tr>
+            <tr>
+                <td>2010</td>
+                <td>2015</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <hr>
+
+    <form>
+        <fieldset>
+            <legend>İletişim Formu</legend>
+
+            <label for="ad">Adınız:</label>
+            <input type="text" id="ad" name="ad" required><br><br>
+
+            <label for="mesaj">Mesaj:</label><br>
+            <textarea id="mesaj" name="mesaj" rows="4" cols="30"></textarea><br><br>
+
+            
+
+            <input type="radio" name="cinsiyet" value="erkek"> Erkek
+            <input type="radio" name="cinsiyet" value="kadın"> Kadın<br><br>
+
+            
+
+            <input type="submit" value="Gönder">
+            <input type="reset" value="Temizle">
+        </fieldset>
+    </form>
+
+    <p id="Haber"></p>
+
+</body>
+</html>
+	
